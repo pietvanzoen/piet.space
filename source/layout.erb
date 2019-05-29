@@ -5,18 +5,25 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
     <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    <%= stylesheet_link_tag 'style' %>
 
     <title><%= current_article.title + ' - ' unless current_article.nil? %>piet.space</title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
 
-    <div id="main" role="main">
+    <main id="main" role="main">
+      <%= link_to 'Back to home page',  '/' unless current_page.url == '/' %>
       <%= yield %>
-    </div>
+    </main>
+
+    <footer class="text-small">
+      <p>&copy; <%= Time.new.year %>  Piet van Zoen</p>
+    </footer>
+
 
     <%# <aside> %>
     <%#   <h2>Recent Articles</h2> %>

@@ -1,7 +1,7 @@
 0.0.0.0:{$PORT} {
-  git https://github.com/pietvanzoen/pietvanzoen.com.git {
+  git https://github.com/pietvanzoen/piet.space.com.git {
     path /site
-    branch {$BRANCH}
+    branch dist
     interval 300
     clone_args --depth=1
     then git clean -fd
@@ -17,23 +17,7 @@
 
   rewrite /feed /feed.xml
 
-  redir 302 {
-    /blog/archive /blog/
-    /blog/archive/ /blog/
-    /blog/archive/index.html /blog/
-    /reading /links/
-    /reading/ /links/
-    /reading/index.html /links/
-  }
-
-  header / {
-    Strict-Transport-Security "max-age=31536000;"
-    Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' fathom.piet.me; img-src 'self' fathom.piet.me; report-uri https://pietvanzoen.report-uri.com/r/d/csp/reportOnly"
-    Cache-Control "max-age=30; public"
-  }
-
-  header /images Cache-Control "max-age=86400; public"
+  header / Cache-Control "max-age=30; public"
+  header /audio Cache-Control "max-age=86400; public"
   header /stylesheets Cache-Control "max-age=86400; public"
-  header /fonts Cache-Control "max-age=86400; public"
-  header /cached Cache-Control "max-age=86400; public"
 }

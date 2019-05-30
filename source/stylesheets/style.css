@@ -17,6 +17,10 @@ main {
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
+a:visited {
+  color: #993a8c;
+}
+
 h1, h2, h3 {
   font-family: 'Permanent Marker', sans-serif;
 }

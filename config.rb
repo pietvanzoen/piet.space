@@ -53,6 +53,11 @@ page "/feed.xml", layout: false
 #   activate :livereload
 # end
 
+configure :build do
+  activate :minify_css
+  activate :asset_hash
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper

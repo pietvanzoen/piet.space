@@ -4,7 +4,7 @@ title: Paris market
 
 Strolling through a Parisian market with my wife and mother-in-law. French, and ambulances, and squid, oh my!
 
-<audio controls src="/audio/2017-06-17-paris-market.m4a"></audio>
+<audio controls prefetch="none" src="/audio/2017-06-17-paris-market.m4a"></audio>
 
 <details>
   <summary>Audio Description</summary>

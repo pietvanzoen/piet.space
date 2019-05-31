@@ -5,9 +5,9 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Varela&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
     <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
     <%= stylesheet_link_tag 'style' %>
 
     <title><%= current_article.title + ' - ' unless current_article.nil? %>piet.space</title>
@@ -15,14 +15,16 @@
   </head>
   <body>
 
-    <main id="main" role="main">
-      <%= link_to 'Back to home page',  '/' unless current_page.url == '/' %>
-      <%= yield %>
-    </main>
+    <div class="container">
+      <main id="main" role="main">
+        <%= link_to '← Back to home page',  '/' unless current_page.url == '/' %>
+        <%= yield %>
+      </main>
 
-    <footer class="text-small">
-      <p>&copy; <%= Time.new.year %>  Piet van Zoen</p>
-    </footer>
+      <footer class="text-small">
+        <p>&copy; <%= Time.new.year %>  <a href="https://piet.me">Piet van Zoen</a></p>
+      </footer>
+    </div>
 
 
     <%# <aside> %>

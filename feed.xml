@@ -14,7 +14,7 @@
     <link rel="alternate" href="https://piet.space/2017/heartbeats/"/>
     <id>https://piet.space/2017/heartbeats/</id>
     <published>2017-07-05T00:00:00+00:00</published>
-    <updated>2019-05-30T14:52:32+00:00</updated>
+    <updated>2019-05-31T11:39:50+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -35,7 +35,7 @@
     <link rel="alternate" href="https://piet.space/2017/paris-metro/"/>
     <id>https://piet.space/2017/paris-metro/</id>
     <published>2017-05-16T00:00:00+00:00</published>
-    <updated>2019-05-30T14:52:32+00:00</updated>
+    <updated>2019-05-31T11:39:50+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -58,13 +58,13 @@
     <link rel="alternate" href="https://piet.space/2017/paris-market/"/>
     <id>https://piet.space/2017/paris-market/</id>
     <published>2017-05-16T00:00:00+00:00</published>
-    <updated>2019-05-30T14:52:32+00:00</updated>
+    <updated>2019-05-31T11:39:50+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;Strolling through a Parisian market with my wife and mother-in-law. French, and ambulances, and squid, oh my!&lt;/p&gt;
 
-&lt;audio controls="" src="/audio/2017-06-17-paris-market.m4a"&gt;&lt;/audio&gt;
+&lt;audio controls="" prefetch="none" src="/audio/2017-06-17-paris-market.m4a"&gt;&lt;/audio&gt;
 
 &lt;details&gt;
   &lt;summary&gt;Audio Description&lt;/summary&gt;
@@ -85,7 +85,7 @@
     <link rel="alternate" href="https://piet.space/2017/windmill-harp/"/>
     <id>https://piet.space/2017/windmill-harp/</id>
     <published>2017-05-13T00:00:00+00:00</published>
-    <updated>2019-05-30T14:52:32+00:00</updated>
+    <updated>2019-05-31T11:39:50+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>

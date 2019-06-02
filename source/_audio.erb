@@ -1,0 +1,16 @@
+<script src="https://unpkg.com/wavesurfer.js"></script>
+<div id="wave"></div>
+
+<script>
+  var wavesurfer = WaveSurfer.create({
+    container: document.querySelector('#wave'),
+    mediaControls: true,
+    backend: 'MediaElement'
+
+  });
+  wavesurfer.load('<%= src %>');
+</script>
+
+<noscript>
+  <audio controls src="<%= src %>"></audio>
+</noscript>

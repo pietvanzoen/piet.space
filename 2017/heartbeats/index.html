@@ -9,15 +9,16 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
 
-    <link href="/stylesheets/style-d63186ab.css" rel="stylesheet" />
+    <link href="/stylesheets/style-c395e79d.css" rel="stylesheet" />
 
     <title>Heartbeats - piet.space</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
   </head>
   <body>
 
+    <div class="shape shape--square shape--red"></div>
     <div class="container">
-      <main id="main" role="main">
+      <main id="main" role="main" class="main">
         <a href="/">← Back to home page</a>
           <article>
     <header>
@@ -26,7 +27,23 @@
     </header>
     <p>A happy heartbeat.</p>
 
-<audio controls="" src="/audio/2017-07-05-heartbeat.m4a"></audio>
+<script src="https://unpkg.com/wavesurfer.js"></script>
+
+<div id="wave"></div>
+
+<script>
+  var wavesurfer = WaveSurfer.create({
+    container: document.querySelector('#wave'),
+    mediaControls: true,
+    backend: 'MediaElement'
+
+  });
+  wavesurfer.load('/audio/2017-07-05-heartbeat.m4a');
+</script>
+
+<noscript>
+  <audio controls="" src="/audio/2017-07-05-heartbeat.m4a"></audio>
+</noscript>
 
 <details>
   <summary>Audio Description</summary>
@@ -39,9 +56,7 @@
 
       </main>
 
-      <footer class="text-small">
-        <p>&copy; 2019  <a href="https://piet.me">Piet van Zoen</a></p>
-      </footer>
+      <footer class="text-small footer">&copy; 2019  <a href="https://piet.me">Piet van Zoen</a></footer>
     </div>
 
 

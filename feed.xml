@@ -14,13 +14,29 @@
     <link rel="alternate" href="https://piet.space/2017/heartbeats/"/>
     <id>https://piet.space/2017/heartbeats/</id>
     <published>2017-07-05T00:00:00+00:00</published>
-    <updated>2019-06-02T05:37:30+00:00</updated>
+    <updated>2019-06-02T21:31:12+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;A happy heartbeat.&lt;/p&gt;
 
-&lt;audio controls="" src="/audio/2017-07-05-heartbeat.m4a"&gt;&lt;/audio&gt;
+&lt;script src="https://unpkg.com/wavesurfer.js"&gt;&lt;/script&gt;
+
+&lt;div id="wave"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  var wavesurfer = WaveSurfer.create({
+    container: document.querySelector('#wave'),
+    mediaControls: true,
+    backend: 'MediaElement'
+
+  });
+  wavesurfer.load('/audio/2017-07-05-heartbeat.m4a');
+&lt;/script&gt;
+
+&lt;noscript&gt;
+  &lt;audio controls="" src="/audio/2017-07-05-heartbeat.m4a"&gt;&lt;/audio&gt;
+&lt;/noscript&gt;
 
 &lt;details&gt;
   &lt;summary&gt;Audio Description&lt;/summary&gt;
@@ -35,7 +51,7 @@
     <link rel="alternate" href="https://piet.space/2017/paris-metro/"/>
     <id>https://piet.space/2017/paris-metro/</id>
     <published>2017-05-16T00:00:00+00:00</published>
-    <updated>2019-06-02T05:37:30+00:00</updated>
+    <updated>2019-06-02T21:31:12+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -74,7 +90,7 @@
     <link rel="alternate" href="https://piet.space/2017/paris-market/"/>
     <id>https://piet.space/2017/paris-market/</id>
     <published>2017-05-16T00:00:00+00:00</published>
-    <updated>2019-06-02T05:37:30+00:00</updated>
+    <updated>2019-06-02T21:31:12+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -117,7 +133,7 @@
     <link rel="alternate" href="https://piet.space/2017/windmill-harp/"/>
     <id>https://piet.space/2017/windmill-harp/</id>
     <published>2017-05-13T00:00:00+00:00</published>
-    <updated>2019-06-02T05:37:30+00:00</updated>
+    <updated>2019-06-02T21:31:12+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>

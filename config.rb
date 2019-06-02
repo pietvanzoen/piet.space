@@ -63,11 +63,14 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def random_shape_color
+    ['yellow', 'blue', 'pink', 'red'].sample
+  end
+  def random_shape
+    ['triangle', 'square', 'circle'].sample
+  end
+end
 
 # Build-specific configuration
 configure :build do

@@ -15,15 +15,14 @@
   </head>
   <body>
 
+    <div class="shape shape--<%= random_shape %> shape--<%= random_shape_color %>"></div>
     <div class="container">
-      <main id="main" role="main">
+      <main id="main" role="main" class="main">
         <%= link_to '← Back to home page',  '/' unless current_page.url == '/' %>
         <%= yield %>
       </main>
 
-      <footer class="text-small">
-        <p>&copy; <%= Time.new.year %>  <a href="https://piet.me">Piet van Zoen</a></p>
-      </footer>
+      <footer class="text-small footer">&copy; <%= Time.new.year %>  <a href="https://piet.me">Piet van Zoen</a></footer>
     </div>
 
 

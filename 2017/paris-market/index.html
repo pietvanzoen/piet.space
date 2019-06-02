@@ -6,10 +6,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
-    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
 
-    <link href="/stylesheets/style-56dedf56.css" rel="stylesheet" />
+    <link href="/stylesheets/style-d63186ab.css" rel="stylesheet" />
 
     <title>Paris market - piet.space</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
@@ -26,7 +26,23 @@
     </header>
     <p>Strolling through a Parisian market with my wife and mother-in-law. French, and ambulances, and squid, oh my!</p>
 
-<audio controls="" prefetch="none" src="/audio/2017-06-17-paris-market.m4a"></audio>
+<script src="https://unpkg.com/wavesurfer.js"></script>
+
+<div id="wave"></div>
+
+<script>
+  var wavesurfer = WaveSurfer.create({
+    container: document.querySelector('#wave'),
+    mediaControls: true,
+    backend: 'MediaElement'
+
+  });
+  wavesurfer.load('/audio/2017-06-17-paris-market.m4a');
+</script>
+
+<noscript>
+  <audio controls="" src="/audio/2017-06-17-paris-market.m4a"></audio>
+</noscript>
 
 <details>
   <summary>Audio Description</summary>

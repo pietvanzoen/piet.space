@@ -22,7 +22,10 @@
         <%= yield %>
       </main>
 
-      <footer class="text-small footer">&copy; <%= Time.new.year %>  <a href="https://piet.me">Piet van Zoen</a></footer>
+      <footer class="text-small footer">
+        <p><%= link_to 'About this website', '/about' unless current_page.url == '/about/' %></p>
+        &copy; <%= Time.new.year %>  <a href="https://piet.me">Piet van Zoen</a>
+      </footer>
     </div>
 
 

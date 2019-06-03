@@ -5,16 +5,54 @@
   <id>https://piet.space/</id>
   <link href="https://piet.space/"/>
   <link href="https://piet.space/feed.xml" rel="self"/>
-  <updated>2017-07-05T00:00:00+00:00</updated>
+  <updated>2018-10-29T00:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Minsk Tunnel</title>
+    <link rel="alternate" href="https://piet.space/2018/minsk-tunnel/"/>
+    <id>https://piet.space/2018/minsk-tunnel/</id>
+    <published>2018-10-29T00:00:00+00:00</published>
+    <updated>2019-06-03T07:48:21+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I was in Minsk for work. On my walk back to the hotel I could hear singing coming from one of the pedestrian tunnels going under the main road. I took a diversion and recorded as I walked through the tunnel.&lt;/p&gt;
+
+&lt;script src="https://unpkg.com/wavesurfer.js"&gt;&lt;/script&gt;
+
+&lt;div id="wave"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  var wavesurfer = WaveSurfer.create({
+    container: document.querySelector('#wave'),
+    mediaControls: true,
+    backend: 'MediaElement'
+
+  });
+  wavesurfer.load('/audio/2018-10-29-minsk-tunnel.m4a');
+&lt;/script&gt;
+
+&lt;noscript&gt;
+  &lt;audio controls="" src="/audio/2018-10-29-minsk-tunnel.m4a"&gt;&lt;/audio&gt;
+&lt;/noscript&gt;
+
+&lt;details&gt;
+  &lt;summary&gt;Audio Description&lt;/summary&gt;
+  &lt;p&gt;A female voice is singing in an operatic style in russian. The voice echos around the tunnel.&lt;/p&gt;
+  &lt;p&gt;There's some russling of my clothes as I walk past the singer.&lt;/p&gt;
+  &lt;p&gt;When I turn the corner the singing becomes quieter and you hear footsteps as I climb the steps.&lt;/p&gt;
+  &lt;p&gt;The singing continues to get quieter as the sounds from the street above get louder.&lt;/p&gt;
+&lt;/details&gt;
+</content>
+  </entry>
   <entry>
     <title>Heartbeats</title>
     <link rel="alternate" href="https://piet.space/2017/heartbeats/"/>
     <id>https://piet.space/2017/heartbeats/</id>
     <published>2017-07-05T00:00:00+00:00</published>
-    <updated>2019-06-02T21:33:11+00:00</updated>
+    <updated>2019-06-03T07:48:21+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -51,7 +89,7 @@
     <link rel="alternate" href="https://piet.space/2017/paris-metro/"/>
     <id>https://piet.space/2017/paris-metro/</id>
     <published>2017-05-16T00:00:00+00:00</published>
-    <updated>2019-06-02T21:33:11+00:00</updated>
+    <updated>2019-06-03T07:48:21+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -90,7 +128,7 @@
     <link rel="alternate" href="https://piet.space/2017/paris-market/"/>
     <id>https://piet.space/2017/paris-market/</id>
     <published>2017-05-16T00:00:00+00:00</published>
-    <updated>2019-06-02T21:33:11+00:00</updated>
+    <updated>2019-06-03T07:48:21+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -133,7 +171,7 @@
     <link rel="alternate" href="https://piet.space/2017/windmill-harp/"/>
     <id>https://piet.space/2017/windmill-harp/</id>
     <published>2017-05-13T00:00:00+00:00</published>
-    <updated>2019-06-02T21:33:11+00:00</updated>
+    <updated>2019-06-03T07:48:21+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>

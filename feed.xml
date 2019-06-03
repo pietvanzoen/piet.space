@@ -1,207 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>piet.space</title>
-  <subtitle>A collection of sounds.</subtitle>
+  <subtitle>Recordings from interesting spaces.</subtitle>
   <id>https://piet.space/</id>
   <link href="https://piet.space/"/>
   <link href="https://piet.space/feed.xml" rel="self"/>
   <updated>2018-10-29T00:00:00+00:00</updated>
   <author>
-    <name>Blog Author</name>
+    <name>Piet van Zoen</name>
   </author>
   <entry>
     <title>Minsk Tunnel</title>
     <link rel="alternate" href="https://piet.space/2018/minsk-tunnel/"/>
     <id>https://piet.space/2018/minsk-tunnel/</id>
     <published>2018-10-29T00:00:00+00:00</published>
-    <updated>2019-06-03T20:17:53+00:00</updated>
+    <updated>2019-06-03T20:58:59+00:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Piet van Zoen</name>
     </author>
-    <content type="html">&lt;p&gt;I was in Minsk for work. On my walk back to the hotel I could hear singing coming from one of the pedestrian tunnels going under the main road. I took a diversion and recorded as I walked through the tunnel.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;I was in Minsk for work. On my walk back to the hotel I could hear singing coming from one of the pedestrian tunnels going under the main road. I took a diversion and recorded as I walked through the tunnel.&lt;/p&gt;
 
-&lt;script src="https://unpkg.com/wavesurfer.js"&gt;&lt;/script&gt;
-
-&lt;div id="wave"&gt;&lt;/div&gt;
-
-&lt;script&gt;
-  var wavesurfer = WaveSurfer.create({
-    container: document.querySelector('#wave'),
-    mediaControls: true,
-    backend: 'MediaElement'
-
-  });
-  wavesurfer.load('/audio/2018-10-29-minsk-tunnel.m4a');
-&lt;/script&gt;
-
-&lt;noscript&gt;
-  &lt;audio controls="" src="/audio/2018-10-29-minsk-tunnel.m4a"&gt;&lt;/audio&gt;
-&lt;/noscript&gt;
-
-&lt;details&gt;
-  &lt;summary&gt;Audio Description&lt;/summary&gt;
-  &lt;p&gt;A female voice is singing in an operatic style in russian. The voice echos around the tunnel.&lt;/p&gt;
-  &lt;p&gt;There's some russling of my clothes as I walk past the singer.&lt;/p&gt;
-  &lt;p&gt;When I turn the corner the singing becomes quieter and you hear footsteps as I climb the steps.&lt;/p&gt;
-  &lt;p&gt;The singing continues to get quieter as the sounds from the street above get louder.&lt;/p&gt;
-&lt;/details&gt;
-</content>
+&lt;p&gt;&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Heartbeats</title>
     <link rel="alternate" href="https://piet.space/2017/heartbeats/"/>
     <id>https://piet.space/2017/heartbeats/</id>
     <published>2017-07-05T00:00:00+00:00</published>
-    <updated>2019-06-03T20:17:53+00:00</updated>
+    <updated>2019-06-03T20:58:59+00:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Piet van Zoen</name>
     </author>
-    <content type="html">&lt;p&gt;A happy heartbeat.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;A happy heartbeat.&lt;/p&gt;
 
-&lt;script src="https://unpkg.com/wavesurfer.js"&gt;&lt;/script&gt;
-
-&lt;div id="wave"&gt;&lt;/div&gt;
-
-&lt;script&gt;
-  var wavesurfer = WaveSurfer.create({
-    container: document.querySelector('#wave'),
-    mediaControls: true,
-    backend: 'MediaElement'
-
-  });
-  wavesurfer.load('/audio/2017-07-05-heartbeat.m4a');
-&lt;/script&gt;
-
-&lt;noscript&gt;
-  &lt;audio controls="" src="/audio/2017-07-05-heartbeat.m4a"&gt;&lt;/audio&gt;
-&lt;/noscript&gt;
-
-&lt;details&gt;
-  &lt;summary&gt;Audio Description&lt;/summary&gt;
-  &lt;p&gt;A fast heart beat thumps from the cracking ultrasound speaker.&lt;/p&gt;
-  &lt;p&gt;Keven giggles.&lt;/p&gt;
-  &lt;p&gt;The midwife explains the sounds we're hearing. A heartbeat of 150 beats per minute.&lt;/p&gt;
-  &lt;p&gt;Heartbeats continue as we talk and listen in awe.&lt;/p&gt;
-&lt;/details&gt;
-</content>
+&lt;p&gt;&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Paris Metro</title>
     <link rel="alternate" href="https://piet.space/2017/paris-metro/"/>
     <id>https://piet.space/2017/paris-metro/</id>
     <published>2017-05-17T00:00:00+00:00</published>
-    <updated>2019-06-03T20:17:53+00:00</updated>
+    <updated>2019-06-03T20:58:59+00:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Piet van Zoen</name>
     </author>
-    <content type="html">&lt;p&gt;French accordion player on the Paris metro.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;French accordion player on the Paris metro.&lt;/p&gt;
 
-&lt;script src="https://unpkg.com/wavesurfer.js"&gt;&lt;/script&gt;
-
-&lt;div id="wave"&gt;&lt;/div&gt;
-
-&lt;script&gt;
-  var wavesurfer = WaveSurfer.create({
-    container: document.querySelector('#wave'),
-    mediaControls: true,
-    backend: 'MediaElement'
-
-  });
-  wavesurfer.load('/audio/2017-05-16-paris-metro.m4a');
-&lt;/script&gt;
-
-&lt;noscript&gt;
-  &lt;audio controls="" src="/audio/2017-05-16-paris-metro.m4a"&gt;&lt;/audio&gt;
-&lt;/noscript&gt;
-
-&lt;details&gt;
-  &lt;summary&gt;Audio Description&lt;/summary&gt;
-  &lt;p&gt;An accordion plays over the low rumbling of the metro train.&lt;/p&gt;
-  &lt;p&gt;As the train approaches a station the station name is announced.&lt;/p&gt;
-  &lt;p&gt;The doors of the train open and people step on and off the train.&lt;/p&gt;
-  &lt;p&gt;The accordion player finishes his song and thanks everyone for listening. "Merci beaucoup!"&lt;/p&gt;
-  &lt;p&gt;Coins clink in the bottom of his cup as he asks for tips.&lt;/p&gt;
-&lt;/details&gt;
-</content>
+&lt;p&gt;&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Paris Market</title>
     <link rel="alternate" href="https://piet.space/2017/paris-market/"/>
     <id>https://piet.space/2017/paris-market/</id>
     <published>2017-05-16T00:00:00+00:00</published>
-    <updated>2019-06-03T20:17:53+00:00</updated>
+    <updated>2019-06-03T20:58:59+00:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Piet van Zoen</name>
     </author>
-    <content type="html">&lt;p&gt;Strolling through a Parisian market with my wife and mother-in-law. French, and ambulances, and squid, oh my!&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Strolling through a Parisian market with my wife and mother-in-law. French, and ambulances, and squid, oh my!&lt;/p&gt;
 
-&lt;script src="https://unpkg.com/wavesurfer.js"&gt;&lt;/script&gt;
-
-&lt;div id="wave"&gt;&lt;/div&gt;
-
-&lt;script&gt;
-  var wavesurfer = WaveSurfer.create({
-    container: document.querySelector('#wave'),
-    mediaControls: true,
-    backend: 'MediaElement'
-
-  });
-  wavesurfer.load('/audio/2017-06-17-paris-market.m4a');
-&lt;/script&gt;
-
-&lt;noscript&gt;
-  &lt;audio controls="" src="/audio/2017-06-17-paris-market.m4a"&gt;&lt;/audio&gt;
-&lt;/noscript&gt;
-
-&lt;details&gt;
-  &lt;summary&gt;Audio Description&lt;/summary&gt;
-  &lt;p&gt;People chatter and walk around a busy market.&lt;/p&gt;
-  &lt;p&gt;An ambulance is making it's way through the busy city traffic.&lt;/p&gt;
-  &lt;p&gt;Shop keepers and customers greet each other and speak in French. "Bonjour!"&lt;/p&gt;
-  &lt;p&gt;The ambulance passes by grows quieter before it disappears.&lt;/p&gt;
-  &lt;p&gt;I ask Keven "What did you get?". She replies, "Some cherries, from that hot french guy."&lt;/p&gt;
-  &lt;p&gt;Keven's mom laughs and comments "They did look delish!"&lt;/p&gt;
-  &lt;p&gt;We enjoy the cherries and walk through the market.&lt;/p&gt;
-  &lt;p&gt;Keven's mom notices something she doesn't like the look of. "Eeeew! Is that squid?!"&lt;/p&gt;
-  &lt;p&gt;Market noises and french chattering continues.&lt;/p&gt;
-&lt;/details&gt;
-</content>
+&lt;p&gt;&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Windmolens Harp</title>
     <link rel="alternate" href="https://piet.space/2017/windmill-harp/"/>
     <id>https://piet.space/2017/windmill-harp/</id>
     <published>2017-05-13T00:00:00+00:00</published>
-    <updated>2019-06-03T20:17:53+00:00</updated>
+    <updated>2019-06-03T20:58:59+00:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Piet van Zoen</name>
     </author>
-    <content type="html">&lt;p&gt;On national windmill day we came across an art performance in a field by a windmill. It was a mix of ambient audio coming from speakers attached to the sails of the windmill accompanied by a harp and poetry recitals.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;On national windmill day we came across an art performance in a field by a windmill. It was a mix of ambient audio coming from speakers attached to the sails of the windmill accompanied by a harp and poetry recitals.&lt;/p&gt;
 
 &lt;p&gt;This is a short recording from that performance.&lt;/p&gt;
 
-&lt;script src="https://unpkg.com/wavesurfer.js"&gt;&lt;/script&gt;
-
-&lt;div id="wave"&gt;&lt;/div&gt;
-
-&lt;script&gt;
-  var wavesurfer = WaveSurfer.create({
-    container: document.querySelector('#wave'),
-    mediaControls: true,
-    backend: 'MediaElement'
-
-  });
-  wavesurfer.load('/audio/2017-05-13-windmolens-harp.m4a');
-&lt;/script&gt;
-
-&lt;noscript&gt;
-  &lt;audio controls="" src="/audio/2017-05-13-windmolens-harp.m4a"&gt;&lt;/audio&gt;
-&lt;/noscript&gt;
-
-&lt;details&gt;
-  &lt;summary&gt;Audio Description&lt;/summary&gt;
-  &lt;p&gt;Light harp plucking over ambient chords. Wind periodically muffles the recording. People quietly talk in the background.&lt;/p&gt;
-&lt;/details&gt;
-</content>
+&lt;p&gt;&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -68,7 +68,7 @@ helpers do
     ['yellow', 'blue', 'pink', 'red'].sample
   end
   def random_shape
-    ['triangle', 'square', 'circle'].sample
+    ['triangle', 'circle'].sample
   end
 end
 

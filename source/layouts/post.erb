@@ -1,3 +1,8 @@
+<%
+require 'redcarpet'
+markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)
+%>
+
 
 <% wrap_layout :layout do %>
   <article>
@@ -5,6 +10,17 @@
       <h1><%= current_article.title %></h1>
       <time class="text-small" datetime="<%= current_article.date.strftime('%F') %>"><%= current_article.date.strftime('%e %B %Y') %></time>
     </header>
+
     <%= yield %>
+
+    <%= partial(:audio, :locals => { :src => current_page.data.audio }) if current_page.data.audio %>
+
+    <% if current_page.data.audio_description %>
+    <details>
+      <summary>Audio Description</summary>
+      <%= markdown.render(current_page.data.audio_description) %>
+    </details>
+    <% end %>
+
   </article>
 <% end %>

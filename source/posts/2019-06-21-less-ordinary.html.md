@@ -19,4 +19,4 @@ I layered about 5 guitar pieces together, all recorded using the MacBook microph
 
 The song is called _Less Ordinary_, I have no idea why. Maybe I got it from the film _Life Less Ordinary_. I might have liked that film at the time.
 
-I remember pretty distantly listening to [Sleater-Kinney's _The Woods_](https://en.wikipedia.org/wiki/The_Woods_(album)) for the first time on this trip. My song is nothing like Sleater-Kinney, but somehow these two things are related in my memory.
+I remember pretty distinctly listening to [Sleater-Kinney's _The Woods_](https://en.wikipedia.org/wiki/The_Woods_(album)) for the first time on this trip. My song is nothing like Sleater-Kinney, but somehow these two things are related in my memory.

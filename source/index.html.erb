@@ -3,7 +3,7 @@ pageable: true
 per_page: 5
 ---
 <header class="header">
-  <h1>piet.space</h1>
+  <h1 aria-label="piet dot space"><span aria-hidden="true" class="icon"></span>piet.space</h1>
   <p class="text-large">Recordings from interesting spaces.</p>
 </header>
 
@@ -13,11 +13,11 @@ per_page: 5
 
 
 <% if paginate && num_pages > 1 %>
-  <footer class="pagination">
+  <section class="pagination">
     <p>
       <%= link_to 'Newer posts', prev_page if prev_page %>
       <%= '&bull;' if prev_page and next_page %>
       <%= link_to 'Older posts', next_page if next_page %>
     </p>
-  </footer>
+  </section>
 <% end %>

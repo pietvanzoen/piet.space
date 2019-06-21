@@ -5,16 +5,31 @@
   <id>https://piet.space/</id>
   <link href="https://piet.space/"/>
   <link href="https://piet.space/feed.xml" rel="self"/>
-  <updated>2018-10-29T00:00:00+00:00</updated>
+  <updated>2019-06-21T00:00:00+00:00</updated>
   <author>
     <name>Piet van Zoen</name>
   </author>
+  <entry>
+    <title>Less Ordinary</title>
+    <link rel="alternate" href="https://piet.space/2019/less-ordinary/"/>
+    <id>https://piet.space/2019/less-ordinary/</id>
+    <published>2019-06-21T00:00:00+00:00</published>
+    <updated>2019-06-21T13:22:30+00:00</updated>
+    <author>
+      <name>Piet van Zoen</name>
+    </author>
+    <summary type="html">&lt;p&gt;I recently rediscovered this old recording I made in February 2006.&lt;/p&gt;
+
+&lt;p&gt;I was visiting my mum and step-dad in Minehead in the UK. I brought my guitar and my 2006 white MacBook with me. I'd been playing around with a song for a while and decided to put a recording together.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Minsk Tunnel</title>
     <link rel="alternate" href="https://piet.space/2018/minsk-tunnel/"/>
     <id>https://piet.space/2018/minsk-tunnel/</id>
     <published>2018-10-29T00:00:00+00:00</published>
-    <updated>2019-06-20T06:23:19+00:00</updated>
+    <updated>2019-06-21T13:22:30+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -27,7 +42,7 @@
     <link rel="alternate" href="https://piet.space/2017/heartbeats/"/>
     <id>https://piet.space/2017/heartbeats/</id>
     <published>2017-07-05T00:00:00+00:00</published>
-    <updated>2019-06-20T06:23:19+00:00</updated>
+    <updated>2019-06-21T13:22:30+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -40,7 +55,7 @@
     <link rel="alternate" href="https://piet.space/2017/paris-metro/"/>
     <id>https://piet.space/2017/paris-metro/</id>
     <published>2017-05-17T00:00:00+00:00</published>
-    <updated>2019-06-20T06:23:19+00:00</updated>
+    <updated>2019-06-21T13:22:30+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -53,7 +68,7 @@
     <link rel="alternate" href="https://piet.space/2017/paris-market/"/>
     <id>https://piet.space/2017/paris-market/</id>
     <published>2017-05-16T00:00:00+00:00</published>
-    <updated>2019-06-20T06:23:19+00:00</updated>
+    <updated>2019-06-21T13:22:30+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -66,7 +81,7 @@
     <link rel="alternate" href="https://piet.space/2017/windmill-harp/"/>
     <id>https://piet.space/2017/windmill-harp/</id>
     <published>2017-05-13T00:00:00+00:00</published>
-    <updated>2019-06-20T06:23:19+00:00</updated>
+    <updated>2019-06-21T13:22:30+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>

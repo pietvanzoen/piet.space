@@ -127,3 +127,18 @@ a:visited {
   left: 0;
   color: var(--yellow);
 }
+
+.kudos {
+  margin: 2em 0;
+}
+
+.kudos-btn {
+  color: var(--red);
+  padding: 0;
+  background: none;
+  border: none;
+}
+.kudos-btn span {
+  display: inline-block;
+  transform: rotate(90deg);
+}

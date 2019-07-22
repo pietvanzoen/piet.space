@@ -6,5 +6,10 @@
       <time class="text-small" datetime="<%= current_article.date.strftime('%F') %>"><%= current_article.date.strftime('%e %B %Y') %></time>
     </header>
     <%= yield %>
+    <div class="kudos">
+      <button class="kudos-btn" type="button" title="Like this?" id="plusfries"><span>❥</span></button>
+    </div>
   </article>
 <% end %>
+
+<script async src="https://plusfries.piet.me/plusfries.js"></script>

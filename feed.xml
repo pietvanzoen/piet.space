@@ -5,16 +5,29 @@
   <id>https://piet.space/</id>
   <link href="https://piet.space/"/>
   <link href="https://piet.space/feed.xml" rel="self"/>
-  <updated>2019-06-21T00:00:00+00:00</updated>
+  <updated>2019-07-23T00:00:00+00:00</updated>
   <author>
     <name>Piet van Zoen</name>
   </author>
+  <entry>
+    <title>Ten years</title>
+    <link rel="alternate" href="https://piet.space/2019/ten-years/"/>
+    <id>https://piet.space/2019/ten-years/</id>
+    <published>2019-07-23T00:00:00+00:00</published>
+    <updated>2019-07-23T08:40:16+00:00</updated>
+    <author>
+      <name>Piet van Zoen</name>
+    </author>
+    <summary type="html">&lt;p&gt;On this day in 2009 Keven and I met a small group of friends and family at the McMenameins Edgefield Hotel in Oregon. We gathered together in a shady part of the gardens and said a few words.&lt;/p&gt;
+
+&lt;p&gt;My brother brought his camcorder. He recorded everything...&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Less Ordinary</title>
     <link rel="alternate" href="https://piet.space/2019/less-ordinary/"/>
     <id>https://piet.space/2019/less-ordinary/</id>
     <published>2019-06-21T00:00:00+00:00</published>
-    <updated>2019-07-22T19:54:44+00:00</updated>
+    <updated>2019-07-23T08:40:16+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -29,7 +42,7 @@
     <link rel="alternate" href="https://piet.space/2019/mama/"/>
     <id>https://piet.space/2019/mama/</id>
     <published>2019-06-07T00:00:00+00:00</published>
-    <updated>2019-07-22T19:54:44+00:00</updated>
+    <updated>2019-07-23T08:40:16+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -41,7 +54,7 @@
     <link rel="alternate" href="https://piet.space/2018/minsk-tunnel/"/>
     <id>https://piet.space/2018/minsk-tunnel/</id>
     <published>2018-10-29T00:00:00+00:00</published>
-    <updated>2019-07-22T19:54:44+00:00</updated>
+    <updated>2019-07-23T08:40:16+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -54,7 +67,7 @@
     <link rel="alternate" href="https://piet.space/2017/heartbeats/"/>
     <id>https://piet.space/2017/heartbeats/</id>
     <published>2017-07-05T00:00:00+00:00</published>
-    <updated>2019-07-22T19:54:44+00:00</updated>
+    <updated>2019-07-23T08:40:16+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -67,24 +80,11 @@
     <link rel="alternate" href="https://piet.space/2017/paris-metro/"/>
     <id>https://piet.space/2017/paris-metro/</id>
     <published>2017-05-17T00:00:00+00:00</published>
-    <updated>2019-07-22T19:54:44+00:00</updated>
+    <updated>2019-07-23T08:40:16+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
     <summary type="html">&lt;p&gt;French accordion player on the Paris metro.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Paris Market</title>
-    <link rel="alternate" href="https://piet.space/2017/paris-market/"/>
-    <id>https://piet.space/2017/paris-market/</id>
-    <published>2017-05-16T00:00:00+00:00</published>
-    <updated>2019-07-22T19:54:44+00:00</updated>
-    <author>
-      <name>Piet van Zoen</name>
-    </author>
-    <summary type="html">&lt;p&gt;Strolling through a Parisian market with my wife and mother-in-law. French, and ambulances, and squid, oh my!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</summary>
   </entry>

@@ -1,16 +1,11 @@
 ---
 title: Windmolens Harp
+audio: /audio/2017-05-13-windmolens-harp.m4a
+audio_device: iPhone 7
+audio_description: |
+  Light harp plucking over ambient chords. Wind periodically muffles the recording. People quietly talk in the background.
 ---
 
 On national windmill day we came across an art performance in a field by a windmill. It was a mix of ambient audio coming from speakers attached to the sails of the windmill accompanied by a harp and poetry recitals.
 
 This is a short recording from that performance.
-
-READMORE
-
-<%= partial(:audio, :locals => { :src => '/audio/2017-05-13-windmolens-harp.m4a' }) %>
-
-<details>
-  <summary>Audio Description</summary>
-  <p>Light harp plucking over ambient chords. Wind periodically muffles the recording. People quietly talk in the background.</p>
-</details>

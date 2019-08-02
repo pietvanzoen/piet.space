@@ -5,16 +5,27 @@
   <id>https://piet.space/</id>
   <link href="https://piet.space/"/>
   <link href="https://piet.space/feed.xml" rel="self"/>
-  <updated>2019-07-23T00:00:00+00:00</updated>
+  <updated>2019-08-02T00:00:00+00:00</updated>
   <author>
     <name>Piet van Zoen</name>
   </author>
+  <entry>
+    <title>Polderbaan</title>
+    <link rel="alternate" href="https://piet.space/2019/polderbaan/"/>
+    <id>https://piet.space/2019/polderbaan/</id>
+    <published>2019-08-02T00:00:00+00:00</published>
+    <updated>2019-08-02T13:22:08+00:00</updated>
+    <author>
+      <name>Piet van Zoen</name>
+    </author>
+    <summary type="html">&lt;p&gt;I recently took a flight from Amsterdam to London. The flight time is only 40 minutes, but before that there's a 20 minute taxi from the terminal to the runway. You cross a motorway and a canal to get this runway. It's in the middle of a field far...&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Ten years</title>
     <link rel="alternate" href="https://piet.space/2019/ten-years/"/>
     <id>https://piet.space/2019/ten-years/</id>
     <published>2019-07-23T00:00:00+00:00</published>
-    <updated>2019-08-02T06:44:12+00:00</updated>
+    <updated>2019-08-02T13:22:08+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -27,7 +38,7 @@
     <link rel="alternate" href="https://piet.space/2019/less-ordinary/"/>
     <id>https://piet.space/2019/less-ordinary/</id>
     <published>2019-06-21T00:00:00+00:00</published>
-    <updated>2019-08-02T06:44:12+00:00</updated>
+    <updated>2019-08-02T13:22:08+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -42,7 +53,7 @@
     <link rel="alternate" href="https://piet.space/2019/mama/"/>
     <id>https://piet.space/2019/mama/</id>
     <published>2019-06-07T00:00:00+00:00</published>
-    <updated>2019-08-02T06:44:12+00:00</updated>
+    <updated>2019-08-02T13:22:08+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -54,7 +65,7 @@
     <link rel="alternate" href="https://piet.space/2018/minsk-tunnel/"/>
     <id>https://piet.space/2018/minsk-tunnel/</id>
     <published>2018-10-29T00:00:00+00:00</published>
-    <updated>2019-08-02T06:44:12+00:00</updated>
+    <updated>2019-08-02T13:22:08+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
@@ -67,24 +78,11 @@
     <link rel="alternate" href="https://piet.space/2017/heartbeats/"/>
     <id>https://piet.space/2017/heartbeats/</id>
     <published>2017-07-05T00:00:00+00:00</published>
-    <updated>2019-08-02T06:44:12+00:00</updated>
+    <updated>2019-08-02T13:22:08+00:00</updated>
     <author>
       <name>Piet van Zoen</name>
     </author>
     <summary type="html">&lt;p&gt;A happy heartbeat.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Paris Metro</title>
-    <link rel="alternate" href="https://piet.space/2017/paris-metro/"/>
-    <id>https://piet.space/2017/paris-metro/</id>
-    <published>2017-05-17T00:00:00+00:00</published>
-    <updated>2019-08-02T06:44:12+00:00</updated>
-    <author>
-      <name>Piet van Zoen</name>
-    </author>
-    <summary type="html">&lt;p&gt;French accordion player on the Paris metro.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</summary>
   </entry>

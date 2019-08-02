@@ -26,6 +26,8 @@
           <%= link_to 'Back to home page',  '/' unless current_page.url == '/' %>
           <%= '<span aria-hidden="true">&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>' unless ['/', '/about/'].include? current_page.url %>
           <%= link_to 'About this website', '/about' unless current_page.url == '/about/' %>
+          <%= '<span aria-hidden="true">&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>' %>
+          <%= link_to 'Subscribe to updates', 'https://mailchi.mp/854a7194243d/piet-space' %>
         </p>
         &copy; <%= Time.new.year %>  <a href="https://piet.me">Piet van Zoen</a>
       </footer>

@@ -1,6 +1,7 @@
 ---
 title: Heartbeats
 audio: /audio/2017-07-05-heartbeat.m4a
+audio_device: iPhone 7
 audio_description: |
   A fast heart beat thumps from the cracking ultrasound speaker.
 

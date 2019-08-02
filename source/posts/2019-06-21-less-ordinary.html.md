@@ -1,6 +1,7 @@
 ---
 title: Less Ordinary
 audio: /audio/2019-06-21-less-ordinary.mp3
+audio_device: 2006 MacBook
 audio_description: |
   A soft melancholy sounding song played on an acoustic guitar.
 

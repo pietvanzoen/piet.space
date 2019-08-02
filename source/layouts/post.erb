@@ -22,5 +22,9 @@ markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tabl
     </details>
     <% end %>
 
+    <% if current_page.data.audio_device %>
+      <p>Recording device: <%= current_page.data.audio_device %></p>
+    <% end %>
+
   </article>
 <% end %>

@@ -1,6 +1,7 @@
 ---
 title: Paris Market
 audio: /audio/2017-06-17-paris-market.m4a
+audio_device: iPhone 7
 audio_description: |
   People chatter and walk around a busy market.
 

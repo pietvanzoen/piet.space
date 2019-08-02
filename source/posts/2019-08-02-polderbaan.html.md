@@ -20,3 +20,5 @@ I recently took a flight from Amsterdam to London. The flight time is only 40 mi
 Right next to the [Polderbaan](https://www.schiphol.nl/en/you-and-schiphol/page/planespotting/) there's a carpark that's a really nice spot to watch (and hear) the planes landing or taking off. I finally took Teddie there to watch the planes. We got there and Teddie was more interested in playing in the car or running around the carpark, which was fine.
 
 I got this recording of a Boeing 747 landing. As it's passing the recorder it kicks in the reverse thrust. Teddie held on to my legs as the noise went by.
+
+P.S. This is also the first post using my new [Zoom H1n](https://www.zoom-na.com/products/field-video-recording/field-recording/zoom-h1n-handy-recorder) recorder. Enjoy!

@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "bundle exec middleman build --build_dir=public"
+  }
+}

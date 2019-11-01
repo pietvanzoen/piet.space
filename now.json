@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/feed", "dest": "/feed.xml" },
+    { "src": "/(.*)", "status": 404, "dest": "/404" }
+  ]
+}

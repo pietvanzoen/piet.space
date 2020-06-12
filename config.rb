@@ -62,6 +62,12 @@ configure :development do
   activate :livereload
 end
 
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
+  deploy.branch = "gh-pages"
+end
+
 # Methods defined in the helpers block are available in templates
 helpers do
   def random_shape_color

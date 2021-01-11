@@ -105,7 +105,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    redcarpet (3.5.0)
+    redcarpet (3.5.1)
     sassc (2.2.1)
       ffi (~> 1.9)
     servolux (0.13.0)
@@ -130,7 +130,7 @@ DEPENDENCIES
   middleman-deploy (~> 2.0.0.pre.alpha)
   middleman-livereload (~> 3.4.3)
   nokogiri
-  redcarpet (~> 3.3, >= 3.3.3)
+  redcarpet (~> 3.5)
   tzinfo-data
   wdm (~> 0.1.0)
 
